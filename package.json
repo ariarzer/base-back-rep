@@ -4,12 +4,18 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "test": "exit 0",
+    "test": "npm run lint",
+    "lint": "eslint \"**/*.js{,x}\"",
     "dev": "nodemon ./index.js localhost 8080",
     "start": "node server/index.js"
   },
   "author": {
     "name": "Sofi Valitova",
     "email": "ariarzer@gmail.com"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
