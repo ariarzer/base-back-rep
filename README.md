@@ -1,5 +1,7 @@
 # Space game
 
+[![Build status](https://travis-ci.org/ariarzer/space-game.svg?branch=master)](https://travis-ci.org/ariarzer/type)
+
 Service to automate the game "Cosmos".
 
 Provides opportunities for:
