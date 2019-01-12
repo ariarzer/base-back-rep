@@ -1,0 +1,15 @@
+{
+  "name": "space-game",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "exit 0",
+    "dev": "nodemon ./index.js localhost 8080",
+    "start": "node server/index.js"
+  },
+  "author": {
+    "name": "Sofi Valitova",
+    "email": "ariarzer@gmail.com"
+  }
+}
